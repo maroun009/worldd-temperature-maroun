@@ -22,15 +22,8 @@ st.markdown("### Analysis of Regression Model Errors")
 
 st.markdown("### Residual Analysis")
 
-greenhouse_gas = Image.open("app/img/ResidualAnalysis.png")
-st.image(greenhouse_gas)
-st.markdown("")
 
 st.markdown("### Outlier Detection")
-
-greenhouse_gas = Image.open("app/img/OutliarDetection.png")
-st.image(greenhouse_gas)
-st.markdown("")
 
 st.markdown("### Model Refinements")
 
@@ -41,10 +34,6 @@ st.markdown("### Algorithm Selection")
 st.markdown("### Hyperparameter Tuning for Linear Regression")
 
 st.markdown("### Hyperparameter Tuning for Random Forest Regression")
-
-greenhouse_gas = Image.open("app/img/FeatureSelection.png")
-st.image(greenhouse_gas)
-st.markdown("")
 
 st.markdown("### Exploring Time Series Analysis and Forecasting Techniques")
 

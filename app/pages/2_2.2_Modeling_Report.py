@@ -3,6 +3,7 @@ import pandas as pd
 import seaborn as sns
 import streamlit as st
 from PIL import Image
+import streamlit.components.v1 as components
 
 sns.set()
 
@@ -16,14 +17,7 @@ st.sidebar.markdown("""
 
 st.sidebar.markdown("Project Team: Chris Kowalski, Betsi Flores, Maroun Hleihel")
 
-st.markdown("## Classification of the Problem")
 
-st.markdown("### Machine Learning Type")
+st.markdown("## Modeling Report")
 
-st.markdown("### Predicting Temperature Changes")
-
-st.markdown("### Data Preprocessing")
-
-st.markdown("### Choice of Primary Performance Metric")
-
-st.markdown("### Additional Performance Metrics for Comprehensive Model Evaluation")
+components.iframe("https://docs.google.com/presentation/d/e/2PACX-1vQguh4RUfEzd9bdcqWUMemW4f804wRoGzdQbRRso-xap8vW1vBMmzdVSW8BY-UpYQ/embed?start=false&loop=false&delayms=60000", height=600)
