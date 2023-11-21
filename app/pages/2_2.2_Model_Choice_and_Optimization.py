@@ -115,9 +115,6 @@ greenhouse_gas = Image.open("app/img/Graph3.jpg")
 st.image(greenhouse_gas)
 st.markdown("")
 
-greenhouse_gas = Image.open("app/img/Graph4.jpg")
-st.image(greenhouse_gas)
-st.markdown("")
 
 greenhouse_gas = Image.open("app/img/Graph5.jpg")
 st.image(greenhouse_gas)
@@ -127,17 +124,12 @@ greenhouse_gas = Image.open("app/img/Graph6.jpg")
 st.image(greenhouse_gas)
 st.markdown("")
 
-greenhouse_gas = Image.open("app/img/Graph7.jpg")
-st.image(greenhouse_gas)
-st.markdown("")
+
 
 greenhouse_gas = Image.open("app/img/Graph8.jpg")
 st.image(greenhouse_gas)
 st.markdown("")
 
-greenhouse_gas = Image.open("app/img/Graph9.jpg")
-st.image(greenhouse_gas)
-st.markdown("")
 
 greenhouse_gas = Image.open("app/img/Graph10.jpg")
 st.image(greenhouse_gas)
